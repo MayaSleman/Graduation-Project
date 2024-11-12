@@ -1,0 +1,253 @@
+.MS-ShowPlaces p {
+        font-weight: 900;
+        font-weight: var(--third-font-weight);
+        font-size: var(--small-font-size);
+        margin: 0;
+    }
+
+    .MS-ShowPlaces p{
+        margin-bottom: 8px;
+    }
+
+    .NM_TextField {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        margin-top: 24px;
+    }
+
+    .OS-firstfiled {
+        width: 37.41%;
+        margin-top: 10px !important;
+        position: relative;
+    }
+
+    .OS-DestinationDisplay {
+        display: none;
+    }
+
+    .NM_full-width {
+        margin-top: .6rem;
+    }
+
+    .OS-Destination-h1 {
+        font-size: var(--second-medium-font-size) !important;
+        font-weight: var(--second-font-weight) !important;
+        color: var(--main-text-color) !important;
+        padding: 10px 15px 0px;
+    }
+
+    .OS-Destination-Par:hover {
+        color: var(--main-bgcolor) !important;
+        border-radius: 2px;
+        background-color: var(--third-bgcolor);
+    }
+
+    .OS-Room {
+        position: absolute;
+        right: 0;
+        width: 600px;
+        margin-bottom: -100PX;
+        background-color: var(--second-text-color);
+        box-shadow: 0px 0px 5px 5px var(--third-bgcolor);
+        z-index: 100;
+    }
+
+    .OS-Room-h1 {
+        padding-top: 20px;
+    }
+
+    .OS-All-Flex {
+        display: flex;
+    }
+
+    .OS-Ti-Padding1 {
+        padding-left: 20px;
+    }
+
+    .OS-All-Padding {
+        padding: 20px;
+        border-bottom: 0.1px solid var(--gray-text-color);
+    }
+
+    .OS-DivT-Room {
+        padding: 0px 15px;
+    }
+
+    .OS-h6-Room {
+        font-size: var(--small-font-size) !important;
+        font-weight: var(--main-font-weight) !important;
+        color: var(--main-text-color) !important;
+    }
+
+    .OS-p-Room {
+        font-size: var(--xxsmall-font-size) !important;
+        font-weight: var(--main-font-weight) !important;
+        color: var(--main-text-color) !important;
+    }
+
+    .OS-btn-Room {
+        width: 30px;
+        height: 30px;
+        border: 1px solid var(--main-bgcolor);
+        background-color: transparent;
+        border-radius: 4px;
+        box-shadow: 0px 0px 10px 0px var(--main-bgcolor);
+    }
+
+    .OS-btn-Room:hover {
+        border: 1px solid var(--third-bgcolor);
+        background-color: var(--main-bgcolor);
+        border-radius: 4px;
+        box-shadow: 0px 0px 10px 0px var(--main-bgcolor);
+    }
+
+    .OS-pp-Room {
+        font-size: var(--small-font-size) !important;
+        font-weight: var(--main-font-weight) !important;
+        color: var(--main-text-color) !important;
+        padding: 0px 15px;
+    }
+
+    .OS-Ti-Flex {
+        display: flex;
+        align-items: center;
+        height: max-content;
+    }
+
+    .OS-Ti-FlexStyle {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .OS-apply-Style {
+        cursor: pointer;
+        font-size: var(--small-font-size) !important;
+        font-weight: var(--main-font-weight) !important;
+    }
+
+    .OS-applyDiv-Style:hover {
+        background-color: var(--main-bgcolor);
+        color: var(--main-text-color);
+        transition: all 1s;
+        border-radius: 4px;
+        width: 70px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .OS-AddRoom-Style {
+        font-size: var(--small-font-size) !important;
+        font-weight: var(--main-font-weight) !important;
+        padding-top: 5px;
+    }
+
+    .OS-Ti-FlexStyle {
+        padding: 10px;
+        color: var(--main-bgcolor);
+    }
+
+    .OS-Ti-Style:hover {
+        cursor: pointer;
+        background-color: var(--third-bgcolor);
+    }
+.OS-Plus-Style {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+        border: 2px solid var(--main-bgcolor);
+        border-radius: 50%;
+        font-size: var(--small-font-size) !important;
+        font-weight: var(--main-font-weight) !important;
+    }
+
+    .OS-Destination {
+        position: absolute;
+        margin-top: 367px !important;
+        background-color: var(--second-text-color);
+        box-shadow: 0px 0px 14px 0px var(--third-bgcolor);
+        max-height: 300px;
+        border-radius: 10px;
+        overflow-y: auto;
+        width: 33%;
+        z-index: 100;
+    }
+
+    .OS-Destination-Par {
+        font-size: var(--xsmall-font-size) !important;
+        font-weight: var(--main-font-weight) !important;
+        color: var(--main-text-color) !important;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 100%;
+        cursor: pointer;
+        padding: 10px 15px;
+        box-sizing: border-box;
+    }
+    @media (max-width:1200px) {
+        .OS-firstfiled {
+            width: 21.6%;
+        }
+    }
+    @media (max-width:992px) {
+        .NM_TextField {
+            flex-direction: column;
+        }
+
+        .OS-firstfiled {
+            width: 100%;
+        }
+
+        .OS-firstfiled1,
+        .OS-Date-co,
+        .NM_Change {
+            width: 100%;
+        }
+
+        .MS-width,.NM_full-width{
+            width: 100%;
+        }
+
+        .OS-Destination {
+            bottom: 4.3rem;
+            width: 90%;
+        }
+    }
+
+    @media (max-width:577px) {
+        .OS-Destination {
+            bottom: 7.2rem;
+        }
+        .OS-Room {
+            margin-right: 0%;
+            width: 75%;
+        }
+        .OS-FlexWrap {
+            flex-wrap: wrap;
+        }
+        .OS-Destination {
+            width: 98%;
+            height: max-content;
+            display: flex;
+            flex-direction: column;
+            margin-top: 300px!important;
+        }
+        .OS-DestinationFlex {
+            flex-wrap: wrap;
+        }
+    }
+    
+    @media (max-width: 420px) {
+        .OS-Destination {
+            margin-top: 26.25rem!important;
+        }
+    }
+    
+    @media (max-width: 320px) {
+        .OS-Destination {
+            margin-top: 34.25rem!important;
+        }
+    }

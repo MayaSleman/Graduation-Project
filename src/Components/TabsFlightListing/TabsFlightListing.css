@@ -1,0 +1,125 @@
+.custom-tabs {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center !important;
+    /* width: 840px; */
+    height: 80px;
+    padding: 16px 24px 16px 24px;
+    gap: 48px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0px 4px 16px 0px #1122110D;
+
+}
+.NM_HotelListing {
+    background-color: #FAFBFC;
+}
+.AM_flightlist .titleTabs {
+    display: block;
+    width: 140px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: left ;
+    color: black;
+    margin: 0 !important;
+}
+.AM_flightlist .tab-title {
+    margin: 0;
+}
+.AM_flightlist  .small {
+    color: #a0a7a0;
+    width: 140px;
+    max-height: 17px;
+    gap: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: left;
+    margin: 0 !important;
+
+}
+.lastTab {
+    margin-bottom: 30px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border: 0;
+}
+.custom-tabs .titleTabs {
+        position: relative;
+        gap: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+}
+.titleLastTab {
+    flex-direction: row !important;
+}
+.nav-tabs .nav-link.active .titleTabs::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: var(--main-bgcolor);
+    bottom: -33px;
+    left: -12px;
+}
+
+.nav-tabs .nav-link .titleTabs {
+    border-bottom: none;
+}
+.AM_flightlist .nav-link {
+    width: 160px;
+    max-height: 45px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nav-tabs .nav-link {
+    border: 0;
+}
+.custom-tabs .nav-item {
+    position: relative;
+    width:  160px;
+    height:45px;
+}
+.custom-tabs .nav-item:nth-child(n + 2):nth-child(-n + 4)::before {
+    content: '';
+    position: absolute;
+    background-color: #D7E2EE;
+    height: 100%;
+    width: 1px;
+    left: -24px;
+    top: 0;
+    
+}
+@media screen and (min-width:1201px) and (max-width:1428px) {
+    .custom-tabs {
+        gap: 20px;
+    }
+}
+@media screen and (max-width:1200px){
+    .listLinev {
+        display: none;
+    }
+}
+@media screen and (max-width:1039px){
+    .custom-tabs {
+        gap: 18px;
+    }
+}
+@media screen and (max-width:891px) {
+    .custom-tabs {
+        gap: 0px;
+        height: max-content;
+        row-gap: 20px;
+    }
+    .AM_flightlist .titleTabs {
+        width: 100px;
+    }
+}

@@ -1,0 +1,278 @@
+    .OS-Listing_section {
+        padding-top: 3rem;
+        padding-left: 6.5rem;
+        padding-right: 6.5rem;
+        padding-bottom: 4rem;
+        margin-top: 96px;
+    }
+    
+    .OS-Div-One {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .OS-Listing-one {
+        display: flex;
+    }
+    
+    .OS-Listing-Two {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .OS-Listing-onne {
+        min-width: 421px;
+        min-height: 17px;
+    }
+    
+    .OsColor {
+        color: var(--main-bgcolor);
+    }
+    
+    .Os-Size-p {
+        font-size: var( --xxsmall-font-size);
+        font-weight: var(--second-font-weight);
+        line-height: var( --xxsmall-line-hieght);
+    }
+    
+    .Os-img-chevron {
+        display: flex;
+        opacity: 75%;
+        width: 1rem;
+        height: 1rem;
+        color: var(--main-text-color);
+    }
+    
+    .OS-Star-List {
+        list-style: none;
+    }
+    
+    .Os-Size-pp {
+        font-size: var( --second-medium-font-size);
+        font-weight: var(--fourth-font-weight);
+        line-height: var(--xxmedium-line-hieght);
+        color: var(--main-text-color);
+        width: 100%;
+    }
+    
+    .Os-Size-ppp {
+        font-size: var( --xxxsmall-font-size);
+        font-weight: var( --second-font-weight);
+        line-height: var(--small-line-hieght);
+        color: var(--main-text-color);
+        padding-top: 5px;
+    }
+    
+    .OS-Star-img {
+        padding-left: 1px;
+    }
+    
+    .OS-Star-List {
+        padding: 0px 4px 0px 16px;
+    }
+    
+    .OS-Location-img {
+        width: 1.125rem;
+        height: 1.125rem;
+    }
+    
+    .OS-Size-Co {
+        opacity: 75%;
+        color: var(--main-text-color);
+    }
+    
+    .OS-Listing-size {
+        min-width: 180px;
+        min-height: 32px;
+    }
+    
+    .OS-btn-Listing {
+        width: 40px;
+        min-height: 32px;
+        border: none;
+        border-radius: 4px;
+        border: 1px solid var(--main-bgcolor);
+        background-color: transparent;
+    }
+    
+    .OS-Paragraf-Span {
+        font-weight: var(--fourth-font-weight);
+        padding-right: 2px;
+    }
+    
+    .OS-Paragraf-W {
+        font-weight: var( --second-font-weight);
+        width: 8.5rem;
+        height: 0.9375rem;
+        display: flex;
+        justify-content: center;
+        margin: auto 0px;
+    }
+    
+    .OS-Paragraf-p {
+        font-size: var(--xxxsmall-font-size);
+        line-height: var( --small-line-hieght);
+        color: var(--main-text-color);
+    }
+    
+    .OS-Div_Right {
+        display: flex;
+        align-items: end;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .OS_div-btn {
+        display: flex;
+    }
+    
+    .OS-Text-style {
+        font-size: var(--medium-font-size);
+        font-weight: var(--fourth-font-weight);
+        line-height: var(--xxxmedium-line-hieght);
+        display: flex;
+        align-items: end;
+        color: var(--price-color);
+        padding-right: 15px;
+    }
+    
+    .OS-TextSpan-style {
+        font-size: var( --xxsmall-font-size);
+        line-height: var(--xxsmall-line-hieght);
+    }
+    
+    .OS-btn-icon {
+        background-color: transparent;
+        border: none;
+        border-radius: 4px;
+        border: 1px solid var(--main-bgcolor);
+        width: 3rem;
+        height: 3rem;
+        margin: 0px 15px;
+    }
+    
+    .OS_div-btn :active {
+        background-color: var(--main-bgcolor);
+        transition: all .5s;
+    }
+    
+    .OS-Btn-Book {
+        width: 9.375rem;
+        background-color: var(--main-bgcolor);
+    }
+    
+    .OS-Btn-Book:active,
+    .OS-link-Book:active {
+        background-color: transparent;
+        transition: all .5s;
+    }
+    
+    .OS-Btn-Photo:active {
+        background-color: var(--black-color);
+        transition: all .5s;
+        color: var( --main-bgcolor);
+        border: 1px solid var(--main-bgcolor);
+    }
+    
+    .OS-Hotel_one {
+        display: flex;
+        padding-top: 2rem;
+        gap:8px ;
+    }
+    
+    .OS-Hotel_img1 {
+        width: 49.68%;
+    }
+    
+    .OS-Div-Room {
+        width: 49.67%;
+    }
+    
+    .OS-Div-Room1 {
+        display: flex;
+    }
+    
+    .OS_div_Room1 {
+        position: relative;
+        padding-top: 8px;
+    }
+
+    .OS-Div-Room1,.OS_div_Room1{
+        display: flex;
+        gap: 8px;
+    }
+    
+    .OS-Room-Img {
+        width: 49.35%;
+    }
+    
+    .OS-Btn-Photo {
+        position: absolute;
+        right: 1rem;
+        bottom: 4px;
+        width: 8.9375rem;
+        border: none;
+        border-radius: 4px;
+        height: 48px!important;
+    }
+
+    
+    .OS-Listing_section .OS-btn-icon:hover {
+        background-color: var(--fourth-bgcolor);
+        color: var( --main-bgcolor);
+        border: 1px solid var(--main-bgcolor);
+    }
+    @media screen and (max-width:992px){
+        .OS-Listing_section {
+            padding-left: var(--main-padding-home);
+            padding-right: var(--main-padding-home);
+        }
+        .OS-Hotel_one {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .OS-Div-Room,.OS-Hotel_img1{
+            width: 100%;
+        }
+        .OS-Room-Img,.OS-Hotel_img1 {
+            border-radius: 12px;
+        }
+        .OS-Star-List{
+            padding-left: 0;
+        }
+        .OS-Listing-Two{
+            gap: 4px;
+        }
+    }
+    @media screen and (max-width:836px){
+        .OS-Div_Right{
+            gap: 1rem;
+            align-items: start;
+        }
+        .OS_div-btn{
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .OS_div-btn button{
+            margin: 0;
+        }
+        .OS-Text-style{
+            margin-top: 1rem;
+        }
+    }
+    @media screen and (max-width:470px){
+        .OS-Listing-onne p{
+            font-size: 10px !important;
+        }
+        .OS-Listing-onne{
+            min-width: 300px !important;
+        }
+    }
+    @media screen and (max-width:416px){
+        .OS-Btn-Photo{
+            width: 100px;
+            font-size: var(--third-border-radius);
+        }
+    }
